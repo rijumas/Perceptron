@@ -1,0 +1,20 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\PC\OneDrive\Documents\EDA\perceptronRead\perceptronRead>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o C:\Users\PC\OneDrive\Documents\EDA\perceptronRead\perceptronRead\x64\Debug\kernel.cu.obj "C:\Users\PC\OneDrive\Documents\EDA\perceptronRead\perceptronRead\kernel.cu" 
+C:\Users\PC\OneDrive\Documents\EDA\perceptronRead\perceptronRead\kernel.cu(103): warning #780-D: reference is to variable "i" (declared at line 76) -- under old for-init scoping rules it would have been variable "i" (declared at line 98)
+                    if (labels[i] != u)
+                               ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\Users\PC\OneDrive\Documents\EDA\perceptronRead\perceptronRead\kernel.cu(103): warning #780-D: reference is to variable "i" (declared at line 76) -- under old for-init scoping rules it would have been variable "i" (declared at line 98)
+                    if (labels[i] != u)
+                               ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+  kernel.cu
+  tmpxft_00088634_00000000-7_kernel.cudafe1.cpp
+     Creando biblioteca C:\Users\PC\OneDrive\Documents\EDA\perceptronRead\x64\Debug\perceptronRead.lib y objeto C:\Users\PC\OneDrive\Documents\EDA\perceptronRead\x64\Debug\perceptronRead.exp
+LINK : warning LNK4098: la biblioteca predeterminada'LIBCMT' entra en conflicto con otras bibliotecas; use la biblioteca /NODEFAULTLIB:biblioteca
+  perceptronRead.vcxproj -> C:\Users\PC\OneDrive\Documents\EDA\perceptronRead\x64\Debug\perceptronRead.exe
